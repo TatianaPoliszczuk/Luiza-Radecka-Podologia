@@ -16,6 +16,12 @@ jobs:
           npm install
           npm run build
 
+      - name: Set up Git
+        run: |
+          git config user.name "Tatiana Poliszczuk"
+          git config user.email "tatiana73131@gmail.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/TatianaPoliszczuk/Luiza-Radecka-podologia.git
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
