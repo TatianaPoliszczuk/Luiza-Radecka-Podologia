@@ -8,15 +8,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #3d2505eb;
+  background-color: rgba(84, 54, 40, 0.756);
   z-index: 999;
   transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate(100%);
-  background-image: linear-gradient(
-      rgba(12, 12, 12, 0.92),
-      rgba(12, 12, 12, 0.92)
-    ),
-    url(../img/mob_img/menu_mob_backgr.jpg);
 }
 
 .mobile-menu {
@@ -137,8 +132,8 @@
 @media screen and (min-width: 768px) {
   .mob-menu-background {
     background-image: linear-gradient(
-        rgba(12, 12, 12, 0.92),
-        rgba(12, 12, 12, 0.92)
+        rgba(62, 38, 34, 0.92),
+        rgba(62, 38, 34, 0.92)
       ),
       url(../img/tblet_img/menu_tblet_backgr.jpg);
     max-width: 330px;
@@ -203,8 +198,8 @@
 @media (min-resolution: 192dpi) {
   .mob-menu-background {
     background-image: linear-gradient(
-        rgba(12, 12, 12, 0.92),
-        rgba(12, 12, 12, 0.92)
+        rgba(62, 38, 34, 0.92),
+        rgba(62, 38, 34, 0.92)
       ),
       url(../img/mob_img/menu_mob_backgr@2x.jpg);
   }
@@ -212,8 +207,8 @@
   @media (min-width: 768px) {
     .mob-menu-background {
       background-image: linear-gradient(
-          rgba(12, 12, 12, 0.92),
-          rgba(12, 12, 12, 0.92)
+          rgba(62, 38, 34, 0.92),
+          rgba(62, 38, 34, 0.92)
         ),
         url(../img/tblet_img/menu_tblet_backgr@2x.jpg);
     }
