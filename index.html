@@ -14,12 +14,17 @@
     />
     
     <script type="module" crossorigin src="/Luiza-Radecka-Podologia/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Luiza-Radecka-Podologia/assets/index-763a4883.css">
+    <link rel="stylesheet" href="/Luiza-Radecka-Podologia/assets/index-07e65521.css">
   </head>
   <body>
     <header class="watch-charm" id="scroll-up">
   <div class="header-inner container">
-    <a href="./index.html" class="header-logo">LuizaRadecka</a>
+    <a href="./index.html" class="header-logo">
+      <img
+        src="../img/base_logo_transparent_background.png"
+        alt="LuizaRadecka Logo"
+      />
+    </a>
     <button type="button" class="burger-menu">
       <svg class="burger-menu_svg" width="28" height="14">
         <use href="/Luiza-Radecka-Podologia/assets/sprite-b7992bdf.svg#burger"></use>
@@ -33,25 +38,25 @@
           >
         </li>
         <li class="nav-list-item">
-          <a href="#id-about-us" class="nav-list_link nav-list_main-link"
-            >O nas</a
-          >
+          <a href="#id-onas" class="nav-list_link nav-list_main-link">O nas</a>
         </li>
         <li class="nav-list-item">
-          <a href="#id-catalog" class="nav-list_link nav-list_main-link"
+          <a href="#id-zabiegi" class="nav-list_link nav-list_main-link"
             >Zabiegi</a
           >
         </li>
         <li class="nav-list-item">
-          <a href="#id-sale" class="nav-list_link nav-list_main-link">Cennik</a>
-        </li>
-        <li class="nav-list-item">
-          <a href="#id-reviews" class="nav-list_link nav-list_main-link"
-            >Pierwsza wizyta</a
+          <a href="#id-cennik" class="nav-list_link nav-list_main-link"
+            >Cennik</a
           >
         </li>
         <li class="nav-list-item">
-          <a href="#contact-us" class="nav-list_link nav-list_main-link"
+          <a href="#id-opinie" class="nav-list_link nav-list_main-link"
+            >Opinie</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a href="#id-kontakt" class="nav-list_link nav-list_main-link"
             >Kontakt</a
           >
         </li>
@@ -105,39 +110,38 @@
       <nav class="media-menu-nav">
         <ul class="media-nav-list">
           <li class="media-list-item">
-            <a href="./index.html" class="media-menu-link media-after">Home</a>
+            <a href="./index.html" class="media-menu-link media-after"
+              >Podologia</a
+            >
           </li>
           <li class="media-list-item">
-            <a
-              href="#id-about-us"
-              class="media-menu-link media-after for-close-1"
-              >About Us</a
+            <a href="#id-onas" class="media-menu-link media-after for-close-1"
+              >O nas</a
             >
           </li>
           <li class="media-list-item">
             <a
-              href="#id-catalog"
+              href="#id-zabiegi"
               class="media-menu-link media-after for-close-2"
-              >Catalog</a
+              >Zabiegi</a
             >
           </li>
           <li class="media-list-item">
-            <a href="#id-sale" class="media-menu-link media-after for-close-3"
-              >Sale</a
+            <a href="#id-cennik" class="media-menu-link media-after for-close-3"
+              >Cennik</a
+            >
+            >
+          </li>
+          <li class="media-list-item">
+            <a href="#id-opinie" class="media-menu-link media-after for-close-4"
+              >Opinie</a
             >
           </li>
           <li class="media-list-item">
             <a
-              href="#id-reviews"
-              class="media-menu-link media-after for-close-4"
-              >Reviews</a
-            >
-          </li>
-          <li class="media-list-item">
-            <a
-              href="#contact-us"
+              href="#id-kontakt"
               class="media-menu-link media-after for-close-5"
-              >Contact Us</a
+              >Kontakt</a
             >
           </li>
         </ul>
@@ -183,54 +187,10 @@
   </div>
 </header>
 
-<!-- <header class="header-up">
-  <div class="header-container">
-    <a class="header-logo" href="./index.html">LuizaRadecka </a>
-    <nav>
-      <ul class="header-menu">
-        <li><a href="./index.html" class="active">Home</a></li>
-        <li><a class="header-menu-item" href="#about">About Us</a></li>
-        <li><a class="header-menu-item" href="#catalog">Catalog</a></li>
-        <li><a class="header-menu-item" href="#sale">Sale</a></li>
-        <li><a class="header-menu-item" href="#reviews">Reviews</a></li>
-        <li><a class="header-menu-item" href="#contact-us">Contact Us</a></li>
-      </ul>
-    </nav>
-    <div class="container-media-header">
-      <ul class="header-socials">
-        <li class="header-social-item">
-          <a class="header-link" href="https://www.facebook.com/goITclub">
-            <svg class="header-svg" width="21" height="20">
-              <use href="./img/icons.svg#icon-facebook11"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="header-social-item">
-          <a class="header-link" href="https://www.instagram.com/goitclub/"
-            ><svg class="header-svg" width="21" height="20">
-              <use href="./img/icons.svg#icon-instagram"></use></svg
-          ></a>
-        </li>
-        <li class="header-social-item">
-          <a class="header-link" href="https://www.youtube.com/c/GoIT"
-            ><svg class="header-svg" width="21" height="20">
-              <use href="./img/icons.svg#icon-youtube12"></use></svg
-          ></a>
-        </li>
-      </ul>
-    </div>
-    <button type="button" class="open-menu-btn js-open-menu">
-      <svg width="34" height="34">
-        <use href="./img/icons.svg#icon-menu-05"></use>
-      </svg>
-    </button>
-  </div>
-</header> -->
-
 
     <main>
       <section class="hero">
-  <div id="home" class="container-heroabout">
+  <div id="Podologia" class="container-heroabout">
     <div class="container-hero">
       <div class="hero-flex">
         <div class="hero-div-fl">
@@ -297,10 +257,10 @@
   </div>
 </section>
 
-      <!-- <section class="about" id="about">
+      <!-- <section class="about" id="#onas">
   <div class="container-about">
     <div class="about-div">
-      <h2 class="about-title">About Us</h2>
+      <h2 class="about-title">O nas</h2>
       <p class="about-text about-text-one">
         Welcome to our premium watch collection, where luxury and style meet
         functionality and precision. Our selection of timepieces embodies the
@@ -315,17 +275,40 @@
       <a class="about-button" href="#catalog">View catalog</a>
     </div>
     <picture class="about-picture">
-      <source srcset="./img/mob_img/watch_about_us_mob.jpg 1x, ./img/mob_img/watch_about_us_mob@2x.jpg 2x" media="(max-width: 767px)">
-      <source srcset="./img/tblet_img/watch_about_us_tblet.jpg 1x, ./img/tblet_img/watch_about_us_tblet@2x.jpg 2x" media="(max-width: 1279px)">
-      <source srcset="./img/decst_img/watch_about_us_desc.jpg 1x, ./img/decst_img/watch_about_us_desc@2x.jpg 2x" media="(min-width: 1280px)">
-      <img class="about-img" src="./img/mob_img/watch_hero_mob.jpg" alt="watch" width="1150">
+      <source
+        srcset="
+          ./img/mob_img/watch_about_us_mob.jpg    1x,
+          ./img/mob_img/watch_about_us_mob@2x.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <source
+        srcset="
+          ./img/tblet_img/watch_about_us_tblet.jpg    1x,
+          ./img/tblet_img/watch_about_us_tblet@2x.jpg 2x
+        "
+        media="(max-width: 1279px)"
+      />
+      <source
+        srcset="
+          ./img/decst_img/watch_about_us_desc.jpg    1x,
+          ./img/decst_img/watch_about_us_desc@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <img
+        class="about-img"
+        src="./img/mob_img/watch_hero_mob.jpg"
+        alt="watch"
+        width="1150"
+      />
     </picture>
   </div>
 </section>
 
-      <section class="section-catalog" id="catalog">
+      <section class="section-catalog" id="zabiegi">
   <div class="container">
-    <h2 class="catalog-head">Catalog</h2>
+    <h2 class="catalog-head">Zabiegi</h2>
     <ul class="catalog-list">
       <li class="catalog-item">
         <div class="catalog-cover-wrap">
@@ -566,7 +549,7 @@
     </div>
   </div>
 </section>
-      <section class="section-sale" id="sale">
+      <section class="section-sale" id="zabiegi">
   <div class="container-sale">
     <h2 class="sale-logo">Sale</h2>
     <div class="sale-content">
@@ -760,7 +743,7 @@
   </div>
 </section>
 -->
-      <section id="reviews" class="section-reviews">
+      <section id="id-opinie" class="section-reviews">
   <div class="section-reviews-container">
     <h2 class="title-reviews">Opinie</h2>
     <div class="box-reviews">
@@ -827,9 +810,9 @@
   </div>
 </section>
 
-      <!-- <section id="contact-us" class="contact-us-section">
+      <!-- <section id="kontakt" class="contact-us-section">
   <div class="contact-us-container">
-    <h2 class="title-contact">Contact Us</h2>
+    <h2 class="title-contact">Kontakt</h2>
     <div class="contact-wrap">
       <div class="modal-contact">
         <p class="modal-text-contact">
@@ -1026,22 +1009,22 @@
     <nav class="mobile-navigation">
       <ul class="mob-menu-list">
         <li class="mob-menu-list-item">
-          <a class="mob-menu-link current" href="#home"> Home </a>
+          <a class="mob-menu-link current" href="#Podologia"> Podologia </a>
         </li>
         <li class="mob-menu-list-item">
-          <a class="mob-menu-link" href="#about-us"> About us </a>
+          <a class="mob-menu-link" href="#onas"> O nas </a>
         </li>
         <li class="mob-menu-list-item">
-          <a class="mob-menu-link" href="#catalog"> Catalog </a>
+          <a class="mob-menu-link" href="#catalog"> Zabiegi </a>
         </li>
         <li class="mob-menu-list-item">
-          <a class="mob-menu-link" href="#sale"> Sale </a>
+          <a class="mob-menu-link" href="#sale"> Cennik </a>
         </li>
         <li class="mob-menu-list-item">
-          <a class="mob-menu-link" href="#reviews"> Reviews </a>
+          <a class="mob-menu-link" href="#reviews"> Pierwsza wizyta </a>
         </li>
         <li class="mob-menu-list-item">
-          <a class="mob-menu-link" href="#contact-us"> Contact us </a>
+          <a class="mob-menu-link" href="#contact-us"> Kontakt </a>
         </li>
       </ul>
     </nav>
@@ -1050,7 +1033,7 @@
       <li class="social-services-list-item">
         <a
           class="social-services-link"
-          href="https://www.facebook.com/goITclub/"
+          href="https://www.facebook.com/groups/1107568979257988/user/100001465504956/"
           target="_blank"
           aria-label="Facebook link"
         >
@@ -1062,7 +1045,7 @@
       <li class="social-services-list-item">
         <a
           class="social-services-link"
-          href="https://www.instagram.com/goitclub/"
+          href="https://www.instagram.com/podolog__krakow/"
           target="_blank"
           aria-label="Instagram link"
         >
@@ -1074,7 +1057,7 @@
       <li class="social-services-list-item">
         <a
           class="social-services-link"
-          href="https://www.youtube.com/c/GoIT"
+          href="https://www.youtube.com/"
           target="_blank"
           aria-label="YouTube link"
         >
