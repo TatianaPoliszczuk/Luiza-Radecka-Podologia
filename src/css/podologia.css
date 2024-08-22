@@ -5,8 +5,9 @@
 }
 
 .hero {
-  /* margin-bottom: 60px; */
+  /* margin-top: 60px; */
   max-height: 732px;
+  padding-top: 60px;
 }
 
 .hero .hero-flex {
@@ -17,12 +18,12 @@
 .hero .hero-title {
   font-family: 'Gilroy', sans-serif;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 0.95;
   letter-spacing: -0.02em;
   color: #0c0c0c;
   min-height: 114px;
-  margin-top: 60px;
+  margin-top: 45px;
   margin-bottom: 20px;
 }
 
@@ -98,6 +99,7 @@
   width: 72px;
   margin-left: 155px;
   transition: color 250ms ease-in-out;
+  white-space: nowrap;
 }
 
 .hero-list .hero-link:hover,
