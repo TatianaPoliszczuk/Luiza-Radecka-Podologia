@@ -14,7 +14,7 @@
     />
     
     <script type="module" crossorigin src="/Luiza-Radecka-Podologia/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Luiza-Radecka-Podologia/assets/index-2f684ba3.css">
+    <link rel="stylesheet" href="/Luiza-Radecka-Podologia/assets/index-8927c900.css">
   </head>
   <body>
     <header class="watch-charm" id="scroll-up">
@@ -34,7 +34,7 @@
       <ul class="header-nav-list">
         <li class="nav-list-item">
           <a href="./index.html" class="nav-list_link nav-list_main-link"
-            >Podologia</a
+            >Strona główna</a
           >
         </li>
         <li class="nav-list-item">
@@ -100,6 +100,8 @@
       </ul>
     </address>
   </div>
+
+  <!-- mob-menu -->
   <div class="media-menu">
     <div class="media-menu-inner">
       <button class="close-menu" type="button">
@@ -111,7 +113,7 @@
         <ul class="media-nav-list">
           <li class="media-list-item">
             <a href="./index.html" class="media-menu-link media-after"
-              >Podologia</a
+              >Strona główna</a
             >
           </li>
           <li class="media-list-item">
@@ -189,7 +191,7 @@
 
     <main>
       <section class="hero">
-  <div id="Podologia" class="container-heroabout">
+  <div id="glowna" class="container-heroabout">
     <div class="container-hero">
       <div class="hero-flex">
         <div class="hero-div-fl">
@@ -529,26 +531,8 @@
     <button class="catalog-btn" type="button">Show more</button>
   </div>
 </section>
-
-      <section class="advertisement">
-  <div class="container">
-    <h2 class="visually-hidden">Advertisement</h2>
-    <div class="advertisement-container">
-      <p class="advertisement-title">
-        Choose <span class="advertisement-title-span">your story</span>, making
-        every moment unique. Time is your style, and we reveal it.
-      </p>
-      <a
-        class="advertisement-link"
-        href="#Contact"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Contact Us</a
-      >
-    </div>
-  </div>
-</section>
-      <section class="section-sale" id="zabiegi">
+ -->
+      <!-- <section class="section-sale" id="zabiegi">
   <div class="container-sale">
     <h2 class="sale-logo">Sale</h2>
     <div class="sale-content">
@@ -741,8 +725,8 @@
     </div>
   </div>
 </section>
--->
-      <section id="id-opinie" class="section-reviews">
+ -->
+      <section id="opinie" class="section-reviews">
   <div class="section-reviews-container">
     <h2 class="title-reviews">Opinie</h2>
     <div class="box-reviews">
@@ -809,103 +793,132 @@
   </div>
 </section>
 
-      <!-- <section id="kontakt" class="contact-us-section">
-  <div class="contact-us-container">
-    <h2 class="title-contact">Kontakt</h2>
-    <div class="contact-wrap">
-      <div class="modal-contact">
-        <p class="modal-text-contact">
-          Please use the form below to contact us. Enter your name, email,
-          phone, and message and we'll get back to you shortly.
+      <section class="advertisement">
+  <div class="container">
+    <h2 class="visually-hidden">Advertisement</h2>
+    <div class="advertisement-container">
+      <p class="advertisement-title">
+        "Podologia - klucz do długowieczności Twoich stóp"
+      </p>
+      <a
+        class="advertisement-link"
+        href="#Contact"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Kontakt</a
+      >
+    </div>
+  </div>
+</section>
+
+      <section class="contact" id="kontakt">
+  <div class="container">
+    <h2 class="contact-title" id="contactus">Kontakt</h2>
+    <div class="contact-wrapper">
+      <div class="modal">
+        <p class="contact-modal-text">
+          Użyj poniższego formularza, aby się z nami skontaktować. Wpisz swoje
+          imię i nazwisko, adres e-mail, telefon i wiadomość, a my wkrótce się z
+          Tobą skontaktujemy.
         </p>
-        <form class="contact-left-form">
-          <div class="modal-field-contact">
-            <label for="user-name" class="label-name"></label>
+        <form class="modal-contact">
+          <div class="modal-contact-form">
+            <label class="modal-label visually-hidden" for="name">Name</label>
             <input
+              class="modal-input"
+              id="name"
               type="text"
-              name="user-name"
-              class="modal-input"
-              placeholder="Name"
-              id="user-name"
+              placeholder="Imię i nazwisko"
+              required
+              size="45"
+              pattern="[A-Za-z]{2,15}"
+              title="Name"
             />
           </div>
-          <div class="modal-field-contact">
-            <label for="user-email" class="label-name"></label>
-
+          <div class="modal-contact-form">
+            <label class="modal-label visually-hidden" for="email"
+              >E-mail</label
+            >
             <input
+              class="modal-input"
+              id="email"
               type="email"
-              name="user-email"
-              class="modal-input"
               placeholder="Email"
-              id="user-email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              title="Email"
+              required
             />
           </div>
-          <div class="modal-field-contact">
-            <label for="user-phone" class="label-name"></label>
-
+          <div class="modal-contact-form">
+            <label class="modal-label visually-hidden" for="phone"
+              >Phone number</label
+            >
             <input
-              type="tel"
-              name="user-phone"
               class="modal-input"
-              placeholder="Phone"
-              id="user-phone"
+              id="phone"
+              type="tel"
+              placeholder="+48"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              title="Phone"
+              required
             />
           </div>
-          <div class="modal-field-texarea-contact">
-            <label for="user-comment" class="label-name"></label>
+          <div class="modal-contact-comment">
+            <label for="user-comment" class="modal-label visually-hidden"
+              >Comment</label
+            >
             <textarea
               name="user-comment"
               id="user-comment"
-              class="modal-texarea"
-              placeholder="Comment"
+              class="modal-text"
+              placeholder="Komentarz"
             ></textarea>
           </div>
-          <button type="submit" class="button-modal">Send</button>
+          <button class="modal-button" type="submit">Send</button>
         </form>
       </div>
-      <div class="contact-img-wrap">
-        <picture class="contact-img-pic">
+      <div class="contact-main-picture">
+        <picture class="contact-img">
           <source
+            srcset="/Luiza-Radecka-Podologia/assets/stopy_na_piasku-0d9e6b2d.jpg 1x, /Luiza-Radecka-Podologia/assets/stopy_na_piasku-0d9e6b2d.jpg 2x"
             media="(min-width: 1280px)"
-            srcset="
-              /img/decst_img/contact_watch_desc.jpg    1x,
-              /img/decst_img/contact_watch_desc@2x.jpg 2x
-            "
           />
           <source
+            srcset="/Luiza-Radecka-Podologia/assets/stopy_na_piasku-0d9e6b2d.jpg 1x, /Luiza-Radecka-Podologia/assets/stopy_na_piasku-0d9e6b2d.jpg 2x"
             media="(min-width: 768px)"
-            srcset="
-              /img/tblet_img/contact_watch_tblet.jpg    1x,
-              /img/tblet_img/contact_watch_tblet@2x.jpg 2x
-            "
+            width="704"
           />
           <source
-            media="(max-width: 767px)"
             srcset="
-              /img/mob_img/contact_watch_mob.jpg    1x,
-              /img/mob_img/contact_watch_mob@2x.jpg 2x
+              ../img/decst_img/stopy_na_piasku.jpg 1x,
+              /img/decst_img/stopy_na_piasku.jpg   2x
             "
+            media="(max-width: 767px)"
           />
           <img
-            src="/img/decst_img/contact_watch_desc.jpg"
-            alt="contact_watch"
-            class="contact-img"
-            width="360"
+            src="/Luiza-Radecka-Podologia/assets/stopy_na_piasku-0d9e6b2d.jpg"
+            alt="stopy na piasku"
+            width="530"
           />
         </picture>
       </div>
     </div>
   </div>
 </section>
-   -->
+
     </main>
 
     <footer class="footer" id="footer">
   <div class="footer-block container">
     <div class="footer-container">
-      <div class="footer-logo">
-        <a class="footer-logo-link" href="index.html">LuizaRadecka</a>
-      </div>
+      <!-- <div class="footer-logo">
+        <a href="./index.html" class="logo-footer">
+          <img
+            src="/img/base_logo_white_background.png"
+            alt="LuizaRadecka Logo"
+          />
+        </a>
+      </div> -->
       <div class="social-links">
         <ul class="social-links-list">
           <li class="social-links-item">
@@ -951,11 +964,11 @@
           >+48-000-000-000</a
         >
       </div>
-      <div class="footer-slogan">
+      <!-- <div class="footer-slogan">
         <h2 class="footer-slogan-par">
           "Podologia - klucz do długowieczności Twoich stóp"
         </h2>
-      </div>
+      </div> -->
       <div class="footer-middle">
         <div class="footer-links">
           <ul class="footer-links-list">
@@ -981,9 +994,9 @@
             </li>
           </ul>
         </div>
-        <div class="footer-address">
+        <!-- <div class="footer-address">
           <p class="footer-address-par">Mia Dea, Kraków</p>
-        </div>
+        </div> -->
       </div>
       <div class="footer-bottom">
         <p class="footer-bottom-par">
@@ -998,77 +1011,6 @@
   </div>
 </footer>
 
-    <!-- <div class="mob-menu-background js-menu-container">
-  <div class="mobile-menu">
-    <button class="btn-close-mob-menu js-close-menu" type="button">
-      <svg class="btn-icon">
-        <use href="./img/sprite.svg#close-menu"></use>
-      </svg>
-    </button>
-    <nav class="mobile-navigation">
-      <ul class="mob-menu-list">
-        <li class="mob-menu-list-item">
-          <a class="mob-menu-link current" href="#Podologia"> Podologia </a>
-        </li>
-        <li class="mob-menu-list-item">
-          <a class="mob-menu-link" href="#onas"> O nas </a>
-        </li>
-        <li class="mob-menu-list-item">
-          <a class="mob-menu-link" href="#catalog"> Zabiegi </a>
-        </li>
-        <li class="mob-menu-list-item">
-          <a class="mob-menu-link" href="#sale"> Cennik </a>
-        </li>
-        <li class="mob-menu-list-item">
-          <a class="mob-menu-link" href="#reviews"> Pierwsza wizyta </a>
-        </li>
-        <li class="mob-menu-list-item">
-          <a class="mob-menu-link" href="#contact-us"> Kontakt </a>
-        </li>
-      </ul>
-    </nav>
-
-    <ul class="social-services-list">
-      <li class="social-services-list-item">
-        <a
-          class="social-services-link"
-          href="https://www.facebook.com/groups/1107568979257988/user/100001465504956/"
-          target="_blank"
-          aria-label="Facebook link"
-        >
-          <svg class="fb-item" width="18" height="18">
-            <use href="./img/icons.svg#icon-facebook11"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="social-services-list-item">
-        <a
-          class="social-services-link"
-          href="https://www.instagram.com/podolog__krakow/"
-          target="_blank"
-          aria-label="Instagram link"
-        >
-          <svg class="instagram-item">
-            <use href="./img/icons.svg#icon-instagram"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="social-services-list-item">
-        <a
-          class="social-services-link"
-          href="https://www.youtube.com/"
-          target="_blank"
-          aria-label="YouTube link"
-        >
-          <svg class="youtube-item">
-            <use href="./img/icons.svg#icon-youtube12"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
- -->
 
     
   </body>
