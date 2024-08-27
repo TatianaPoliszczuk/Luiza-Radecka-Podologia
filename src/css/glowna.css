@@ -107,6 +107,20 @@
   color: #634a29;
 }
 
+.image-container {
+  width: 100%; /* Możesz dostosować tę wartość do pożądanej szerokości ramki */
+  max-width: 400px; /* Ogranicza maksymalną szerokość ramki */
+  height: 200px; /* Wysokość ramki */
+  overflow: hidden; /* Ukrywa nadmiar treści wychodzącej poza ramkę */
+  border-radius: 30px;
+}
+
+.hero-img img {
+  width: 100%; /* Zdjęcie dopasuje się do szerokości ramki */
+  height: 100%; /* Zdjęcie dopasuje się do wysokości ramki */
+  object-fit: cover; /* Dopasowanie zdjęcia, aby wypełniało ramkę */
+}
+
 @media screen and (min-width: 320px) and (max-width: 375px) {
   .container-hero {
     margin: 0 auto;
