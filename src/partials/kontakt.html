@@ -1,0 +1,100 @@
+<section class="contact" id="kontakt">
+  <div class="container">
+    <h2 class="contact-title" id="contactus">Kontakt</h2>
+    <div class="contact-wrapper">
+      <div class="modal">
+        <p class="contact-modal-text">
+          Użyj poniższego formularza, aby się z nami skontaktować. Wpisz swoje
+          imię i nazwisko, adres e-mail, telefon i wiadomość, a my wkrótce się z
+          Tobą skontaktujemy.
+        </p>
+        <form class="modal-contact">
+          <div class="modal-contact-form">
+            <label class="modal-label visually-hidden" for="name">Name</label>
+            <input
+              class="modal-input"
+              id="name"
+              type="text"
+              placeholder="Imię i nazwisko"
+              required
+              size="45"
+              pattern="[A-Za-z]{2,15}"
+              title="Name"
+            />
+          </div>
+          <div class="modal-contact-form">
+            <label class="modal-label visually-hidden" for="email"
+              >E-mail</label
+            >
+            <input
+              class="modal-input"
+              id="email"
+              type="email"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              title="Email"
+              required
+            />
+          </div>
+          <div class="modal-contact-form">
+            <label class="modal-label visually-hidden" for="phone"
+              >Phone number</label
+            >
+            <input
+              class="modal-input"
+              id="phone"
+              type="tel"
+              placeholder="+48"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              title="Phone"
+              required
+            />
+          </div>
+          <div class="modal-contact-comment">
+            <label for="user-comment" class="modal-label visually-hidden"
+              >Comment</label
+            >
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-text"
+              placeholder="Komentarz"
+            ></textarea>
+          </div>
+          <button class="modal-button" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="contact-main-picture">
+        <picture class="contact-img">
+          <source
+            srcset="
+              /img/decst_img/stopy_na_piasku.jpg 1x,
+              /img/decst_img/stopy_na_piasku.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              /img/decst_img/stopy_na_piasku.jpg 1x,
+              /img/decst_img/stopy_na_piasku.jpg 2x
+            "
+            media="(min-width: 768px)"
+            width="704"
+          />
+          <source
+            srcset="
+              ../img/decst_img/stopy_na_piasku.jpg 1x,
+              /img/decst_img/stopy_na_piasku.jpg   2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="/img/decst_img/stopy_na_piasku.jpg"
+            alt="stopy na piasku"
+            width="530"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>

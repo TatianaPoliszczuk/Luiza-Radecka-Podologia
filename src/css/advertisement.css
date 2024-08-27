@@ -3,9 +3,12 @@
 }
 
 .advertisement-container {
-  background-image:
-      linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-      url(/img/mob_img/adverst-mob@1x.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(/img/decst_img/marmór.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -15,15 +18,17 @@
 }
 
 @media screen and (min-width: 320px) and (min-device-pixel-ratio: 2),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
   .advertisement-container {
-      background-image:
-          linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-          url(/img/mob_img/adverst-mob@2x.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url(/img/decst_img/marmór.jpg);
   }
 }
-
 
 .visually-hidden {
   position: absolute;
@@ -52,7 +57,6 @@ screen and (min-resolution: 2dppx) {
   color: rgba(251, 251, 251, 0.5);
 }
 
-
 .advertisement-link {
   display: inline-flex;
   align-items: center;
@@ -77,56 +81,68 @@ screen and (min-resolution: 2dppx) {
 
 @media screen and (min-width: 768px) {
   .advertisement-container {
-      background-image:
-          linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-          url(/img/tblet_img/advert-tab@1x.jpg);
-      padding: 80px 64px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url(/img/tblet_img/advert-tab@1x.jpg);
+    padding: 80px 64px;
   }
 
   @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-      .advertisement-container {
-          background-image:
-              linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-              url(/img/tblet_img/advert-tab@2x.jpg);
-      }
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .advertisement-container {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.8),
+          rgba(0, 0, 0, 0.8)
+        ),
+        url(/img/tblet_img/advert-tab@2x.jpg);
+    }
   }
 
   .advertisement-title {
-      max-width: 576px;
-      margin-bottom: 32px;
-      font-weight: 600;
-      font-size: 48px;
-      line-height: 0.92;
+    max-width: 576px;
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.92;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .advertisement-container {
-      background-image:
-          linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-          url(/img/decst_img/advert-desk@1x.jpg);
-      padding: 83px 65px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url(/img/decst_img/marmór.jpg);
+    padding: 83px 65px;
   }
 
   @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-      .advertisement-container {
-          background-image:
-              linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-              url(/img/decst_img/advert-desk@2x.jpg);
-      }
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .advertisement-container {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.8),
+          rgba(0, 0, 0, 0.8)
+        ),
+        url(/img/decst_img/marmór.jpg);
+    }
   }
 
   .advertisement-title {
-      max-width: 690px;
-      letter-spacing: -0.02em;
+    max-width: 690px;
+    letter-spacing: -0.02em;
   }
 
   .advertisement-container {
-      display: flex;
-      gap: 140px;
+    display: flex;
+    gap: 140px;
   }
 }

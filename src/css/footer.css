@@ -8,6 +8,67 @@ footer {
   text-align: center;
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers logo and social links */
+  justify-content: center;
+}
+
+.footer-logo {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 80px;
+  height: auto;
+  /* margin-bottom: 20px;  */
+}
+
+.footer-logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.social-links {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* Centers the social links */
+}
+
+.social-links-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Ensures the social links stay centered */
+  gap: 10px;
+  margin: 0;
+}
+
+.social-links-item {
+  display: inline-block;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  width: 34px;
+  height: 34px;
+}
+
+.social-links-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centers the SVG icon */
+  text-decoration: none;
+}
+
+.footer-social-icon {
+  fill: #a9a9a9;
+}
+
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+  fill: #fbfbfb;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer-block {
   background-color: #6b4b31;
   color: #fff;
@@ -24,8 +85,19 @@ footer {
 }
 
 .footer-logo {
-  text-align: left;
-  margin-bottom: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 10px; /* Zaokrąglenie rogów dla telefonów */
+  overflow: hidden;
+  width: 80px; /* Szerokość logo na telefonie */
+  height: auto;
+}
+
+.footer-logo img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .footer-logo-link {
@@ -228,6 +300,13 @@ footer {
     margin-bottom: 32px;
   }
 
+  .footer-logo {
+    top: 15px;
+    left: 15px;
+    border-radius: 12px; /* Zaokrąglenie rogów dla tabletów */
+    width: 100px; /* Szerokość logo na tablecie */
+  }
+
   .footer-logo-link {
     font-size: 20px;
   }
@@ -247,7 +326,7 @@ footer {
   }
 
   .social-links {
-    margin-bottom: 86px;
+    /* margin-bottom: 86px; */
   }
 
   .social-links-item {
@@ -341,7 +420,14 @@ footer {
   }
 
   .social-links {
-    margin-bottom: 142px;
+    /* margin-top: 60px; */
+  }
+
+  /* .footer-logo {
+    top: 20px;
+    left: 20px;
+    border-radius: 15px; 
+    width: 110px; 
   }
 
   .footer-slogan {
@@ -352,6 +438,32 @@ footer {
     width: 523px;
     padding: 0;
     margin: 0;
+  } */
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Ustawienie do lewej strony */
+    justify-content: flex-start;
+  }
+
+  .footer-logo {
+    width: 110px;
+    top: 30px;
+    left: 30px;
+    margin-bottom: 20px; /* Dodanie odstępu między logo a social links */
+  }
+
+  .social-links {
+    margin-bottom: 0; /* Zmniejszenie odstępu poniżej sekcji social links */
+    display: flex;
+    justify-content: flex-start; /* Ustawienie do lewej strony */
+    /* margin-left: 30px;  */
+  }
+
+  .social-links-item {
+    width: 36px;
+    height: 36px;
   }
 
   .footer-links-list {
