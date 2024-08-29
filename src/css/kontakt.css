@@ -22,7 +22,7 @@
   border-radius: 30px;
   padding: 48px 28px;
   width: 100%;
-  background: #f3f3f3;
+  background: #f4f0ec;
 }
 
 .contact-modal-text {
@@ -64,7 +64,7 @@
 
 .modal-contact-comment {
   margin-bottom: 10px;
-  background: #f3f3f3;
+  background: #f4f0ec;
   font-size: 14px;
 }
 
@@ -92,12 +92,12 @@
   padding: 12px 50px;
   width: 134px;
   height: 42px;
-  background-color: #3f3823;
+  background-color: #7a5b45;
   transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:hover {
-  background-color: #3f3823;
+  background-color: #7a5b45;
 }
 
 .modal-button:focus {

@@ -3,7 +3,7 @@
 }
 
 .advertisement-container {
-  background-color: #3f3823;
+  background-color: #7a5b45;
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.1),
@@ -23,7 +23,7 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .advertisement-container {
-    background-color: #3f3823;
+    background-color: #7a5b45;
     background-image: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0.1),
@@ -87,7 +87,7 @@
     padding-top: 80px;
   }
   .advertisement-container {
-    background-color: #3f3823;
+    background-color: #7a5b45;
     background-image: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0.1),
@@ -101,7 +101,7 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .advertisement-container {
-      background-color: #3f3823;
+      background-color: #7a5b45;
       background-image: linear-gradient(
           to bottom,
           rgba(0, 0, 0, 0.1),
@@ -125,7 +125,7 @@
     padding-top: 100px;
   }
   .advertisement-container {
-    background-color: #3f3823;
+    background-color: #7a5b45;
     background-image: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0.1),
@@ -139,11 +139,11 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .advertisement-container {
-      background-color: #3f3823;
+      background-color: #7a5b45;
       background-image: linear-gradient(
           to bottom,
-          rgba(0, 0, 0, 0.1),
-          rgba(0, 0, 0, 0.1)
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
         ),
         url(/img/decst_img/advert-desk@2x.png);
     }
