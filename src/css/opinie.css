@@ -1,5 +1,5 @@
 .section-reviews {
-  margin-top: 60px;
+  padding-top: 60px;
 }
 
 .section-reviews-container {
@@ -76,13 +76,13 @@
 /* =========Media Tablet========== */
 @media screen and (min-width: 768px) {
   .section-reviews {
-    margin-top: 80px;
+    padding-top: 60px;
   }
 
   .section-reviews-container {
     max-width: 768px;
     padding: 0 32px;
-    height: 356px;
+    /* height: 356px; */
     margin-right: auto;
     margin-left: auto;
   }
@@ -135,12 +135,12 @@
 /* =========Media decst========== */
 @media screen and (min-width: 1280px) {
   .section-reviews {
-    margin-top: 100px;
+    padding-top: 60px;
   }
 
   .section-reviews-container {
     max-width: 1280px;
-    height: 356px;
+    /* height: 356px; */
     padding: 0px 65px;
     margin-right: auto;
     margin-left: auto;
@@ -167,7 +167,7 @@
 
   .reviews-item {
     max-width: 370px;
-    height: 272px;
+    height: 220px;
     background-color: #f3f3f3;
     border-radius: 30px;
     padding: 18px 26px;

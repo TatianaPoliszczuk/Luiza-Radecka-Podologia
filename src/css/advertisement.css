@@ -3,30 +3,33 @@
 }
 
 .advertisement-container {
+  background-color: #3f3823;
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
     ),
-    url(/img/decst_img/marmór.jpg);
+    url(/img/mob_img/adverst-mob@1x.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-  background-color: #0c0c0c;
+  background-blend-mode: overlay;
   border-radius: 30px;
   padding: 60px 28px;
+  z-index: 1; /* Dodane */
 }
 
 @media screen and (min-width: 320px) and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .advertisement-container {
+    background-color: #3f3823;
     background-image: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.8)
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.1)
       ),
-      url(/img/decst_img/marmór.jpg);
+      url(/img/mob_img/adverst-mob@2x.jpg);
   }
 }
 
@@ -80,11 +83,15 @@
 }
 
 @media screen and (min-width: 768px) {
+  .advertisement {
+    padding-top: 80px;
+  }
   .advertisement-container {
+    background-color: #3f3823;
     background-image: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.8)
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.1)
       ),
       url(/img/tblet_img/advert-tab@1x.jpg);
     padding: 80px 64px;
@@ -94,10 +101,11 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .advertisement-container {
+      background-color: #3f3823;
       background-image: linear-gradient(
           to bottom,
-          rgba(0, 0, 0, 0.8),
-          rgba(0, 0, 0, 0.8)
+          rgba(0, 0, 0, 0.1),
+          rgba(0, 0, 0, 0.1)
         ),
         url(/img/tblet_img/advert-tab@2x.jpg);
     }
@@ -113,13 +121,17 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .advertisement {
+    padding-top: 100px;
+  }
   .advertisement-container {
+    background-color: #3f3823;
     background-image: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.8)
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.1)
       ),
-      url(/img/decst_img/marmór.jpg);
+      url(/img/decst_img/advert-desk@1x.png);
     padding: 83px 65px;
   }
 
@@ -127,12 +139,13 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .advertisement-container {
+      background-color: #3f3823;
       background-image: linear-gradient(
           to bottom,
-          rgba(0, 0, 0, 0.8),
-          rgba(0, 0, 0, 0.8)
+          rgba(0, 0, 0, 0.1),
+          rgba(0, 0, 0, 0.1)
         ),
-        url(/img/decst_img/marmór.jpg);
+        url(/img/decst_img/advert-desk@2x.png);
     }
   }
 
@@ -144,5 +157,14 @@
   .advertisement-container {
     display: flex;
     gap: 140px;
+  }
+
+  .advertisement-link {
+    width: 160px;
+    height: 48px;
+    top: 80px;
+    left: 910px;
+    gap: 0px;
+    opacity: 0px;
   }
 }

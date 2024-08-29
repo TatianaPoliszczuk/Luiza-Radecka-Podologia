@@ -20,7 +20,8 @@ footer {
   overflow: hidden;
   width: 80px;
   height: auto;
-  /* margin-bottom: 20px;  */
+  align-items: center;
+  display: block;
 }
 
 .footer-logo img {
@@ -33,6 +34,7 @@ footer {
   margin-bottom: 20px;
   display: flex;
   justify-content: center; /* Centers the social links */
+  margin-top: 20px;
 }
 
 .social-links-list {
@@ -70,7 +72,7 @@ footer {
 }
 
 .footer-block {
-  background-color: #6b4b31;
+  background-color: #3f3823;
   color: #fff;
   text-align: center;
   border-radius: 30px;
@@ -451,7 +453,8 @@ footer {
     width: 110px;
     top: 30px;
     left: 30px;
-    margin-bottom: 20px; /* Dodanie odstępu między logo a social links */
+    padding-bottom: 30px;
+    padding-left: 10px;
   }
 
   .social-links {
@@ -468,5 +471,11 @@ footer {
 
   .footer-links-list {
     gap: 0 40px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
   }
 }

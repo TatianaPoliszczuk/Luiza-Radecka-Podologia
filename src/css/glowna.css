@@ -1,11 +1,4 @@
-.container-hero {
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 .hero {
-  /* margin-top: 60px; */
   max-height: 732px;
   padding-top: 60px;
 }
@@ -13,6 +6,12 @@
 .hero .hero-flex {
   max-width: 375px;
   margin: 0 auto;
+}
+
+.container-hero {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .hero .hero-title {
