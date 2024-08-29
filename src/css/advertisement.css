@@ -6,8 +6,8 @@
   background-color: #7a5b45;
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
     ),
     url(/img/mob_img/adverst-mob@1x.jpg);
   background-repeat: no-repeat;
@@ -26,8 +26,8 @@
     background-color: #7a5b45;
     background-image: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1)
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
       ),
       url(/img/mob_img/adverst-mob@2x.jpg);
   }
@@ -90,8 +90,8 @@
     background-color: #7a5b45;
     background-image: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1)
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
       ),
       url(/img/tblet_img/advert-tab@1x.jpg);
     padding: 80px 64px;
@@ -104,8 +104,8 @@
       background-color: #7a5b45;
       background-image: linear-gradient(
           to bottom,
-          rgba(0, 0, 0, 0.1),
-          rgba(0, 0, 0, 0.1)
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
         ),
         url(/img/tblet_img/advert-tab@2x.jpg);
     }
@@ -128,8 +128,8 @@
     background-color: #7a5b45;
     background-image: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1)
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
       ),
       url(/img/decst_img/advert-desk@1x.png);
     padding: 83px 65px;
