@@ -23,7 +23,7 @@
   padding: 22px 26px;
   /* max-width: 320px; */
   margin-top: 24px;
-  background-color: #f3f3f3;
+  background-color: #f4f0ec;
 }
 
 .Victoria {
@@ -109,7 +109,7 @@
   .reviews-item {
     max-width: 344px;
     height: 272px;
-    background-color: #f3f3f3;
+    background-color: #f4f0ec;
     margin-top: 40px;
   }
 
@@ -168,7 +168,7 @@
   .reviews-item {
     max-width: 370px;
     height: 220px;
-    background-color: #f3f3f3;
+    background-color: #f4f0ec;
     border-radius: 30px;
     padding: 18px 26px;
     margin-top: 0px;

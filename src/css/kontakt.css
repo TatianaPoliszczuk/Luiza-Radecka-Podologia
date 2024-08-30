@@ -186,6 +186,8 @@
     padding: 50px 60px;
     flex: 1;
     max-width: 580px;
+    height: 556px;
+    border-radius: 50px;
   }
 
   .modal-button {
@@ -207,6 +209,7 @@
 
   .contact-img {
     flex: 1;
+    width: 100%;
   }
 
   .contact-main-picture {

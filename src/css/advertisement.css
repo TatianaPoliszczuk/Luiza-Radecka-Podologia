@@ -128,8 +128,8 @@
     background-color: #7a5b45;
     background-image: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
       ),
       url(/img/decst_img/advert-desk@1x.png);
     padding: 83px 65px;
@@ -142,8 +142,8 @@
       background-color: #7a5b45;
       background-image: linear-gradient(
           to bottom,
-          rgba(0, 0, 0, 0.3),
-          rgba(0, 0, 0, 0.3)
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
         ),
         url(/img/decst_img/advert-desk@2x.png);
     }
