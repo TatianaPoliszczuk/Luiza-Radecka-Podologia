@@ -49,7 +49,7 @@
 }
 
 .modal-input {
-  border: 1px solid #3350e9;
+  border: 1px solid #0c0c0c;
   border-radius: 12px;
   padding: 12px 14px;
   width: 100%;
@@ -70,7 +70,7 @@
 
 .modal-text {
   resize: none;
-  border: 1px solid #3350e9;
+  border: 1px solid #0c0c0c;
   border-radius: 12px;
   padding: 12px 14px;
   width: 100%;
@@ -101,7 +101,7 @@
 }
 
 .modal-button:focus {
-  background-color: #662e03;
+  background-color: #542e11;
 }
 
 .contact-main-picture {

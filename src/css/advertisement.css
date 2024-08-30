@@ -11,7 +11,7 @@
     ),
     url(/img/mob_img/adverst-mob@1x.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  /* background-position: 50% 50%; */
   background-size: cover;
   background-blend-mode: overlay;
   border-radius: 30px;
