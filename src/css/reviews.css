@@ -76,7 +76,7 @@
 /* =========Media Tablet========== */
 @media screen and (min-width: 768px) {
   .section-reviews {
-    padding-top: 60px;
+    padding-top: 80px;
   }
 
   .section-reviews-container {
@@ -108,7 +108,7 @@
 
   .reviews-item {
     max-width: 344px;
-    height: 272px;
+    height: 252px;
     background-color: #f4f0ec;
     margin-top: 40px;
   }
@@ -135,7 +135,7 @@
 /* =========Media decst========== */
 @media screen and (min-width: 1280px) {
   .section-reviews {
-    padding-top: 60px;
+    padding-top: 100px;
   }
 
   .section-reviews-container {

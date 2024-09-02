@@ -1,10 +1,15 @@
+.end-page {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .footer-container {
   color: #fbfbfb;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  padding-bottom: 32px;
-  padding-top: 30px;
+  /* padding-bottom: 32px;
+  padding-top: 30px; */
 }
 
 /* Ustawienia dla wszystkich linków w stopce */
@@ -58,8 +63,9 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .footer-container {
-    padding-top: 40px;
+  .end-page {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -67,7 +73,7 @@
     position: relative;
     padding-left: 32px;
     padding-right: 32px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
   }
 }
 .footer-content {
@@ -311,6 +317,10 @@
   }
 }
 @media only screen and (min-width: 1280px) {
+  .end-page {
+    padding-top: 100px;
+  }
+
   .footer-row {
     display: flex;
     justify-content: space-between;

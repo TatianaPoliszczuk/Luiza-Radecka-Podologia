@@ -3,12 +3,12 @@
 @import url('./reset.css');
 
 @import url('./header.css');
-@import url('./glowna.css');
-@import url('./o-nas.css');
+@import url('./hero.css');
+@import url('./about.css');
 @import url('./catalog.css');
 @import url('./advertisement.css');
 @import url('./sale.css');
-@import url('./opinie.css');
-@import url('./kontakt.css');
+@import url('./reviews.css');
+@import url('./contact.css');
 @import url('./footer.css');
 /* @import url('./mob-menu.css'); */
