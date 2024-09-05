@@ -83,6 +83,9 @@
 }
 
 @media (min-width: 768px) {
+  .hero-container {
+    flex-direction: row;
+  }
   .hero-section {
     padding-top: 80px;
   }
@@ -130,7 +133,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: unset;
-    justify-content: space-between;
+    justify-content: unset;
     gap: 40px;
   }
 
@@ -151,6 +154,7 @@
     border-radius: 50px;
     width: 509px;
     height: 590px;
+    float: left;
   }
 
   .hero-list {
