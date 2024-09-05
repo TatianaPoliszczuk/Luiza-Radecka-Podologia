@@ -19,10 +19,11 @@
 
 .modal {
   display: block;
+  border: 1px solid #0c0c0c26;
   border-radius: 30px;
   padding: 48px 28px;
   width: 100%;
-  background: #f4f0ec;
+  background: #fcfaf7;
 }
 
 .contact-modal-text {
@@ -64,7 +65,7 @@
 
 .modal-contact-comment {
   margin-bottom: 10px;
-  background: #f4f0ec;
+  background: #fcfaf7;
   font-size: 14px;
 }
 

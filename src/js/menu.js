@@ -80,3 +80,27 @@ window.addEventListener('scroll', function () {
 //     bodyScrollLock.enableBodyScroll(document.body);
 //   });
 // })();
+
+document.querySelector('.catalog-btn').addEventListener('click', function () {
+  // Pobierz wszystkie ukryte elementy listy
+  const hiddenItems = document.querySelectorAll(
+    '.catalog-list li:nth-child(n + 5)'
+  );
+
+  hiddenItems.forEach(function (item) {
+    // Jeśli element jest ukryty, pokaż go
+    if (item.style.display === 'none' || item.style.display === '') {
+      item.style.display = 'block';
+    } else {
+      // Jeśli element jest widoczny, ukryj go ponownie
+      item.style.display = 'none';
+    }
+  });
+
+  // Zmień tekst przycisku na "Pokaż mniej" lub "Pokaż więcej"
+  if (this.textContent === 'Pokaż więcej') {
+    this.textContent = 'Pokaż mniej';
+  } else {
+    this.textContent = 'Pokaż więcej';
+  }
+});
