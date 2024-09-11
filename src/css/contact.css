@@ -201,7 +201,7 @@
     padding: 17px 63px 17px 63px;
     gap: 10px;
     border-radius: 16px;
-    opacity: 0px;
+    opacity: 0;
   }
 
   .modal-input {
